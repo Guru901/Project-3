@@ -1,0 +1,85 @@
+/* #main {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+} */
+
+nav {
+  background: transparent !important;
+}
+
+/* Hero is from here --------------------------------------------------------------------------------  */
+
+#hero {
+  position: relative;
+}
+
+#hero img {
+  width: 100vw;
+  max-width: var(--max-width);
+  zoom: 110%;
+}
+
+#hero-text {
+  position: absolute;
+  text-align: center;
+}
+
+#hero-text h1 {
+  font-size: 5.4rem;
+  font-weight: 500;
+}
+
+#hero-text p {
+  font-size: 2rem;
+}
+
+/* Hero is till here --------------------------------------------------------------------------------  */
+
+#blog-container {
+  margin-top: 8rem;
+  flex-direction: column;
+}
+
+#blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 357px);
+  row-gap: 5rem;
+  column-gap: 6rem;
+}
+
+.abt-blog h1 {
+  font-size: 1.8rem;
+  margin-top: 1 rem;
+  font-weight: 500;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+#show-more,
+#show-less {
+  margin-top: 5rem;
+  width: 16.3rem;
+  height: 4rem;
+  background: white;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 80px;
+  font-size: 1.6rem;
+}
+
+#show-less {
+  display: none;
+}
+
+.added {
+  display: none;
+}
+
+.more-blogs .added {
+  display: block !important;
+}

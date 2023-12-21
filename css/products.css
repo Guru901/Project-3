@@ -1,0 +1,436 @@
+nav {
+    background: transparent !important;
+}
+
+
+/* Main Product is from here ---------------------------------------------------------------------------*/
+
+.main-product {
+    margin-top: 5rem;
+    padding: 0 8%;
+}
+
+.main-product-content {
+    width: 100%;
+    max-width: 115rem;
+    justify-content: space-between !important;
+    margin-bottom: 10rem;
+}
+
+/* Product Left is from here ---------------------------------------------------------------------------*/
+
+
+.more-images {
+    margin-top: 2rem;
+    width: 54.8rem;
+    justify-content: space-between !important;
+}
+
+/* Product Left is till here ---------------------------------------------------------------------------*/
+
+
+/* Product Right is from here ---------------------------------------------------------------------------*/
+
+
+.product-right {
+    width: 50.8rem;
+    height: 91.6rem;
+}
+
+.product-details {
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.pratings {
+    gap: 1rem;
+}
+
+.pratings p{
+ font-size: 1.2rem;
+}
+
+.product-details{
+    display: flex;
+    gap: 1.2rem;
+}
+
+.product-price {
+    gap: 1rem;
+}
+
+.product-price h1 {
+    font-size: 2.8rem;
+    color: #121212;
+}
+
+.product-price s {
+    font-size: 2rem;
+}
+
+.product-name {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.product-description {
+    color: var(--n-light);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+s {
+    color: grey;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    padding: 2rem 0;
+}
+
+.time {
+    display: flex;
+    gap: 2rem;
+}
+
+.sq {
+    background: var(--n-lighterr);
+    flex-direction: column;
+    height: 8rem;
+}
+
+.p2 {
+    font-size: 1.6rem;
+}
+.square {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3.4rem;
+}
+
+.measurements {
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.measurements h1 {
+    color: grey;
+    font-size: 1.6rem;
+}
+
+.measurements p {
+    font-size: 2rem;
+}
+
+.color-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.color-options h1 {
+    color: var(--n-light);
+    font-size: 1.6rem;
+}
+
+.chosen-color {
+    font-size: 2rem;
+}
+
+.ri-arrow-right-s-line {
+    color: grey !important;
+    font-size: 1.6rem;
+}
+
+.options-imgs img{
+    cursor: pointer;
+}
+
+
+.selected-option {
+    border: 1px solid black;
+}
+
+
+.btns {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid #dadada;
+}
+
+.btn-cont-1 {
+    width: 50.8rem;
+    justify-content: space-between !important;
+}
+
+.quant {
+    background: #F5F5F5;
+    border-radius: 8px;
+    width: 12.7rem;
+    height: 5.2rem;
+    justify-content: space-between !important;
+    padding: 0 5%;
+}
+
+.quant p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.wish {
+    width: 35.7rem;
+    height: 5.2rem;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid black;
+    font-size: 1.8rem;
+}
+
+.ri-heart-line {
+    font-size: 1.8rem !important;
+    margin-right: .5rem;
+}
+
+.btn-cont-2 {
+    height: 5.2rem;
+    width: 50.8rem;
+}
+
+.add-to-cart {
+    width: 100%;
+    height: 100%;
+    background: var(--n-darkest);
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.cats {
+    flex-direction: column;
+}
+
+.fcat {
+    width: 14.7rem;
+    justify-content: space-between;
+}
+
+.fcat p {
+    font-size: 1.2rem;
+    color: var(--n-light);
+}
+
+.black {
+    color: var(--n-darkest) !important;
+    font-weight: 500;
+}
+
+.scat {
+    justify-content: space-between;
+    width: 25.1rem;
+    margin-top: .5rem;
+}
+
+.scat p {
+    font-size: 1.2rem;
+    color: var(--n-light);
+}
+
+
+/* Product Right is till here ---------------------------------------------------------------------------*/
+
+
+/* Main Product is till here ---------------------------------------------------------------------------*/
+
+
+/* Reviews are from here ----------------------------------------------------------------------*/
+
+.reviews {
+    flex-direction: column;
+    /*align-items: flex-start;*/
+    padding: 2% 9.5%;
+    gap: 5rem;
+}
+
+/* Switch is from here ----------------------------------------------------------------------*/
+
+
+.switch {
+    gap: 2rem;
+    width: 100%;
+    max-width: var(--max-width);
+    border-bottom: 1px solid #dadada;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.switch h1 {
+    transform: translateY(.3rem);
+    color: #807E7E;
+    text-decoration: 1px underline;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.selected-switch {
+    color: var(--n-darkest) !important;
+}
+
+/* Switch is till here ----------------------------------------------------------------------*/
+
+.customer-reviews {
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+.customer-reviews-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.customer-reviews-top h1 {
+    font-size: 2.8rem;
+    color: var(--n-darker);
+}
+
+.customer-stars-top {
+    gap: 1rem;
+}
+
+.customer-stars-top p{
+    font-size: 1.2rem;
+}
+
+/* Write a Review is from here ------------------------------------------------------------------*/
+
+.write-a-review {
+    padding: 0 2rem;
+    width: 100%;
+    max-width: var(--max-width);
+    height: 7.2rem;
+    border-radius: 16px;
+    border: 1px solid #dadada;
+    justify-content: space-between !important;
+}
+
+.write-a-review input {
+    border:none;
+    height: 100%;
+    width: 87rem;
+    outline: none;
+    font-size: 2rem;
+    padding: 2.2% 0;
+}
+
+.write-a-review button {
+    width: 17.6rem;
+    background: var(--n-darkest);
+    height: 4rem;
+    border-radius: 80px;
+    color: #fff;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.review{
+    width: 100%;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.r {
+    gap: 3rem;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 8rem;
+}
+
+.r-r-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rtop {
+    width: 80vw;
+    max-width: var(--max-width);
+    justify-content: space-between !important;
+}
+
+.no-of-review {
+    font-size: 2.8rem;
+}
+
+select {
+    padding: 1rem;
+    width: 18rem;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 10px;
+}
+
+select option {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.rbottom {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.r-r-right {
+    width: 100rem;
+    color: #353945;
+}
+
+.r-r-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.rname {
+    font-size: 2rem;
+}
+
+.r-r-cont {
+    font-size: 1.6rem;
+}
+
+/* Write a Review is till here ------------------------------------------------------------------*/
+
+
+.show-more,
+.show-less{
+    width: 15.8rem;
+    height: 4rem;
+    border-radius: 80px;
+    font-size: 1.6rem;
+    background: #fff;
+    border: 1px solid black;
+}
+
+.show-less {
+    display: none;
+}
+
+.added-r {
+    display: none;
+}
+
+.r-added .added-r {
+    display: inherit;
+}
+
+/* Reviews are till here ----------------------------------------------------------------------*/

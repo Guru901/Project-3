@@ -1,0 +1,183 @@
+/* #main {
+  width: 100%;
+  height: 100%;
+} */
+
+nav {
+  background: transparent !important;
+}
+
+/* Hero is from here ----------------------------------------------------------------------------------------------------- */
+
+#hero {
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+#htext {
+  width: 83.4rem;
+  margin-left: -13rem;
+  flex-direction: column;
+}
+
+#htext h1 {
+  font-weight: 600;
+  font-size: 5.4rem;
+}
+
+#htext p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+/* Hero is till here ----------------------------------------------------------------------------------------------------- */
+
+/* About us is from here ----------------------------------------------------------------------------------------------------- */
+
+#about {
+  margin-top: 5rem;
+  padding-left: 12rem;
+}
+
+#aleft img {
+  width: 56rem;
+  height: 41.3rem;
+}
+
+#aright {
+  background: #f3f5f7;
+  height: 41.3rem;
+  width: 55.9rem;
+  flex-direction: column;
+}
+
+#aright h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+#atext {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 45.2rem;
+}
+
+#aright p:nth-child(2) {
+  font-size: 1.6rem;
+}
+
+#aright p:nth-child(3) {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.6rem;
+}
+
+/* About us is till here ----------------------------------------------------------------------------------------------------- */
+
+/* Contact Main is From here -------------------------------------------------------------------------------------------------- */
+
+#contact-us {
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 8rem;
+  padding: 5rem;
+}
+
+.pros-cards {
+  width: 100%;
+  max-width: var(--max-width);
+  justify-content: space-evenly;
+}
+
+#contact-us h1 {
+  font-size: 4rem;
+}
+
+.pro-card h1 {
+  font-size: 1.6rem !important;
+  color: gray;
+}
+
+.pro-card p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pro-card {
+  background: var(--n-lighter);
+  width: 35.677rem;
+  height: 20rem;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-radius: 10px;
+}
+
+#contact-form {
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+#cleft form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+textarea {
+  width: 54.4rem;
+  height: 4rem;
+  border-radius: 6px;
+  border: 1px solid #dadada;
+  transition: 0.2s;
+  outline: none;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+textarea {
+  height: 14rem;
+}
+
+form input:hover {
+  border: 1px solid black;
+  transition: 0.2s;
+}
+span {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+#submit {
+  width: 19rem;
+  height: 4rem;
+  background: var(--n-darkest);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.6rem;
+}
+
+#submit:hover {
+  background: white;
+  color: var(--n-darkest);
+  border: 1px solid black;
+}
+
+.pro-card-v2 {
+  margin-top: 15rem;
+  width: 98.9vw;
+  margin-bottom: -4.8rem;
+}
+
+.pro-card-v2 div {
+  border-radius: 0;
+  height: 20rem;
+}
+
+/* Contact Main is till here -------------------------------------------------------------------------------------------------- */
