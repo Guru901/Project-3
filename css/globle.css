@@ -16,6 +16,15 @@
   --max-width: 136rem;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ededed;
+  border-radius: 80px;
+}
+
 .absolute-center {
   display: flex;
   justify-content: center;
